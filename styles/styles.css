@@ -49,27 +49,43 @@ h3 {
     width: 100%;
     font-size: 15px;
     padding: 12px 10px;
-    box-sizing: border-box;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 #mail::before{
-    content: url("../images/email_1x.png");
+    content: url("../images/gmail.png");
     margin: 0 5px;
+    vertical-align: -10%;
 }
-#phone::before{
-    content: url("../images/phone_1x.png");
+#linkedin::before{
+    content: url("../images/linkedin.png");
     margin: 0 5px;
+    vertical-align: -10%;
 }
 #adder::before{
-    content: url("../images/location_1x.png");
+    content: url("../images/placeholder.png");
+    margin: 0 5px;
+    vertical-align: -10%;
 }
-.contact a {
+#github::before{
+    content: url("../images/github.png");
+    margin: 0 5px;
+    vertical-align: -10%;
+}
+.contact > a, p {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+/* .contact a {
     color: inherit;
     margin: 0 10px;
 }
 .contact p {
     display: inline;
     float: right;
-}
+} */
 section h3{
     color: #374458;
 }
